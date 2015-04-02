@@ -1,0 +1,29 @@
+{
+  "name": "localtunnel-runner",
+  "version": "1.0.0",
+  "description": "Run any shell command with access to a public SSH tunnel",
+  "bin": {
+    "lt-run": "cli.js"
+  },
+  "scripts": {
+    "test": "echo 'no tests here'; exit 0"
+  },
+  "keywords": [
+    "localtunnel",
+    "ssh",
+    "testing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawnbot/localtunnel-runner.git"
+  },
+  "author": {
+    "name": "Shawn Allen",
+    "url": "https://github.com/shawnbot"
+  },
+  "license": "CC0",
+  "dependencies": {
+    "localtunnel": "^1.5.0",
+    "yargs": "^3.6.0"
+  }
+}
